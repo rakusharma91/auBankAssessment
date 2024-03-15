@@ -12,7 +12,7 @@ function Sidebar({routes }) {
 							<img src={require("assets/img/reactlogo.png")} alt="..." />
 						</div>
 					</Link>
-					<Link className="simple-text" href="/admin/dashboard">
+					<Link className="simple-text" to="/admin/dashboard">
 						Sales Dashboard
 					</Link>
 				</div>

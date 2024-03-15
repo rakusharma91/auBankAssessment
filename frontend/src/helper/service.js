@@ -15,9 +15,6 @@ export async function callBackendAPI(request){
         }
         return responseData;
     });
-
-    // if(errorFlag && errorRecord.length>0) reFormatErrors(errorRecord);
-
     return {success: !errorFlag, data: apiResponse};
 }// end callBackendAPI()
 
