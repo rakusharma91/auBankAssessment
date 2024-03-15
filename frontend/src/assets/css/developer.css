@@ -1,0 +1,10 @@
+.height-36{
+    height: 36px;
+}
+tbody tr.tr-section{
+    background-color: #87CEFA;;
+}
+th.sales, td.sales{
+    background-color: #448EE4;
+    border: 1px white solid;
+}
